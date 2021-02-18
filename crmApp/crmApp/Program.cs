@@ -10,6 +10,7 @@ namespace CrmApp
         {
             Ui ui = new Ui();
 
+            Customer myCustomer = ui.CreateCustomer();
             Product myProduct = ui.CreateProduct();
             //if(myProduct != null)
             //{

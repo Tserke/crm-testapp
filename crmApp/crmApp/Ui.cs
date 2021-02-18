@@ -24,12 +24,41 @@ namespace CrmApp
 
                 return product;
             }
-            catch(Exception )
+            catch (Exception)
             {
-                Console.WriteLine("You have not completed the questions properly \n"+
+                Console.WriteLine("You have not completed the questions properly \n" +
                     " Please try again.");
                 return null;
             }
+
         }
+
+        public Customer CreateCustomer()
+        {
+            Customer customer = new Customer(); 
+            try
+            {
+                Console.WriteLine("Give the Customer ID");
+                customer.CustomerId = Console.ReadLine();
+                Console.WriteLine("Give the name");
+                customer.Name = Console.ReadLine();
+                Console.WriteLine("Give the Last Name");
+                customer.LastName = Console.ReadLine();
+                Console.WriteLine("Give the Phone");
+                customer.Phone = Console.ReadLine();
+                Console.WriteLine("Give the Last Email");
+                customer.Email = Console.ReadLine();
+
+                return customer;
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("You have not completed the questions properly \n" +
+                    " Please try again.");
+                return null;
+            }
+
+        }
+        
     }
 }

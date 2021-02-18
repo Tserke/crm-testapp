@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dTser\\Source\\Repos\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj": {}
+    "C:\\Users\\dTser\\OneDrive\\Desktop\\TestProjects\\crm-Testapp\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dTser\\Source\\Repos\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj": {
+    "C:\\Users\\dTser\\OneDrive\\Desktop\\TestProjects\\crm-Testapp\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dTser\\Source\\Repos\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj",
+        "projectUniqueName": "C:\\Users\\dTser\\OneDrive\\Desktop\\TestProjects\\crm-Testapp\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj",
         "projectName": "CrmApp",
-        "projectPath": "C:\\Users\\dTser\\Source\\Repos\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj",
+        "projectPath": "C:\\Users\\dTser\\OneDrive\\Desktop\\TestProjects\\crm-Testapp\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj",
         "packagesPath": "C:\\Users\\dTser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dTser\\Source\\Repos\\Tserke\\crm-testapp\\crmApp\\crmApp\\obj\\",
+        "outputPath": "C:\\Users\\dTser\\OneDrive\\Desktop\\TestProjects\\crm-Testapp\\Tserke\\crm-testapp\\crmApp\\crmApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\dTser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
