@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\crmApp"
+    "\\crmApp",
+    "\\crmApp\\crmApp",
+    "\\crmApp\\crmApp\\bin",
+    "\\crmApp\\crmApp\\bin\\Debug"
   ],
-  "SelectedNode": "\\crmApp\\crmApp",
+  "SelectedNode": "\\crmApp\\crmApp\\bin\\Debug\\netcoreapp3.1",
   "PreviewInSolutionExplorer": false
 }

@@ -11,14 +11,39 @@ namespace CrmApp
             Ui ui = new Ui();
 
             Product myProduct = ui.CreateProduct();
-            if(myProduct != null)
-            {
-                myProduct.Print();
+            //if(myProduct != null)
+            //{
+            //    myProduct.Print();
+            //    decimal total = myProduct.TotalCost;
+            //    Console.WriteLine(total);
+            //}
+            
+            Product myProduct1=ui.CreateProduct();
+            Product myProduct2=ui.CreateProduct();
 
-                decimal total = myProduct.TotalCost;
-                Console.WriteLine(total);
+            List<Product> products = new List<Product>
+            {
+                myProduct,
+                myProduct1,
+                myProduct2
+            };
+
+            int howManyHight = 0;
+            int howManyMedium = 0;
+            int howManyLow = 0;
+            foreach (Product p in products)
+            {
+                Console.WriteLine(p.GetRange());
+                if (p.GetRange() == "low") howManyLow++; 
+                if (p.GetRange() == "medium") howManyMedium++; 
+                if (p.GetRange() == "hight") howManyHight++;
+
             }
-           
+
+            Console.WriteLine($"howManyLow= {howManyLow}");
+            Console.WriteLine($"howManyMedium= {howManyMedium}");
+            Console.WriteLine($"howManyHight= {howManyHight}");
+
         }
     }
 }

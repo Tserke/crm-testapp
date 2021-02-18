@@ -1,0 +1,13 @@
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\bin\Debug\netcoreapp3.1\CrmApp.exe
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\bin\Debug\netcoreapp3.1\CrmApp.deps.json
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\bin\Debug\netcoreapp3.1\CrmApp.runtimeconfig.json
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\bin\Debug\netcoreapp3.1\CrmApp.runtimeconfig.dev.json
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\bin\Debug\netcoreapp3.1\CrmApp.dll
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\bin\Debug\netcoreapp3.1\CrmApp.pdb
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\obj\Debug\netcoreapp3.1\CrmApp.csprojAssemblyReference.cache
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\obj\Debug\netcoreapp3.1\CrmApp.AssemblyInfoInputs.cache
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\obj\Debug\netcoreapp3.1\CrmApp.AssemblyInfo.cs
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\obj\Debug\netcoreapp3.1\CrmApp.csproj.CoreCompileInputs.cache
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\obj\Debug\netcoreapp3.1\CrmApp.dll
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\obj\Debug\netcoreapp3.1\CrmApp.pdb
+C:\Users\dTser\Source\Repos\Tserke\crm-testapp\crmApp\crmApp\obj\Debug\netcoreapp3.1\CrmApp.genruntimeconfig.cache

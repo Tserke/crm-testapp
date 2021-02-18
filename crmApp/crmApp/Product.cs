@@ -63,5 +63,16 @@ namespace CrmApp
             Console.WriteLine(ToString());
             Console.WriteLine();
         }
+
+        public string GetRange()
+        {
+            if ( Price < 1)
+                return "low";
+            else if (Price < 10)
+                return "medium";
+            else
+                return "hight";
+
+        }
     }
 }
