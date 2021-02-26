@@ -35,7 +35,7 @@ namespace CrmApp
 
         public int Menu()
         {
-            Console.WriteLine("1. Add a product 2. Display basket 3. Show Categories 4. Total Cost 0. Exit ");
+            Console.WriteLine("1. Add a product 2. Display basket 3. Show Categories 4. Total Cost 5. Save 6. Load 0. Exit ");
             Console.WriteLine("Insert your choice");
             int choice = 0;
             try
@@ -81,6 +81,7 @@ namespace CrmApp
         {
             Basket basket= new Basket();
             int choice;
+            //basket.Load("basket.txt"); if we add this line the program will load the last saved basket this can be used for automation purposes
             do
             {
                 choice = Menu();
@@ -99,8 +100,15 @@ namespace CrmApp
                     case 4:
                         Console.WriteLine("Total cost= " + basket.TotalCost());
                         break;
+                    case 5:
+                        basket.Save("basket.txt");
+                        break;
+                    case 6:
+                        basket.Load("basket.txt");
+                        break;
                     case 0:
                         Console.WriteLine("You selected to exit");
+                        //basket.Save("basket.txt"); if this line is added the program will save the bakset before exit this can be used for automation purposes
                         break;
                 }
             }

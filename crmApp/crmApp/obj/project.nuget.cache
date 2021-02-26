@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OONgX4EtA0W1V/PY2C4LMlgeUHTRqbVNXNOmD4thx6RcbqggmHaxfj22rFF7h/atwxI4JG0ePThkPyao8rh9Tg==",
+  "dgSpecHash": "mrVidQAcKbwHkH9ZFk+q05TT982Wbo1DwVTmmxCfl3dSKK2BtL9VB+3VN1JzMdeNEmw+Et7MSoJPIwO7bHZ1jw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dTser\\Desktop\\Projects\\crm-testapp\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj",
+  "projectFilePath": "C:\\Users\\dTser\\source\\repos\\Tserke\\crm-testapp\\crmApp\\crmApp\\CrmApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

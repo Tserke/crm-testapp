@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace CrmApp
@@ -58,6 +59,55 @@ namespace CrmApp
             return totalCost;
             // the m in 0m means that it is a decimal 0 and not int 
             //return 0m;
+        }
+
+        //saves all the data in a file
+        public string Save(string filename)
+        {
+            try
+            {
+                StreamWriter sw = new StreamWriter(filename, true); //The true means append
+                foreach (Product product in products)
+                {
+                    sw.WriteLine(product.Code + "," + product.Name + "," + product.Price + "," + product.Quantity);
+                }
+                sw.Close();
+            }
+            catch(Exception)
+            {
+                return "An error accured";
+            }
+            return "The data have been saved";
+        }
+        
+        // reads data from a existing file
+        public string Load(string filename)
+        {
+            try
+            {
+                products.Clear();
+                StreamReader sr = new StreamReader(filename);
+                string line;
+                line = sr.ReadLine();
+                while (line!=null)
+                {
+                    string[] words = line.Split(",");
+                    Product product = new Product {  
+                        Code = words[0],
+                        Name = words[1],
+                        Price = Decimal.Parse(words[2]),
+                        Quantity = Int32.Parse(words[3])
+                          
+                    };
+                    products.Add(product);
+                    line = sr.ReadLine();
+                }
+            }
+            catch(Exception)
+            {
+                return "An error occured";
+            }
+            return "File loaded";
         }
     }
 }

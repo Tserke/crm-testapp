@@ -1,11 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\crmApp",
-    "\\crmApp\\crmApp",
-    "\\crmApp\\crmApp\\bin",
-    "\\crmApp\\crmApp\\bin\\Debug"
+    ""
   ],
-  "SelectedNode": "\\crmApp\\crmApp\\Ui.cs",
   "PreviewInSolutionExplorer": false
 }
