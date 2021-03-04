@@ -4,13 +4,15 @@ using System.Text;
 
 namespace CrmApp
 {
-    class Customer
+    public class Customer
     {
-        public string CustomerId { get; set; }
+        public int CustomerId { get; set; }
+        public int Sex { get; set; }
         public string Name { get; set; }
-        public string LastName { get; set; }
-        public string Phone { get; set; }
-        public string Email { get; set; }
+
+        //public string LastName { get; set; }
+        //public string Phone { get; set; }
+        //public string Email { get; set; }
 
         //public Customer()
         //{
@@ -23,4 +25,5 @@ namespace CrmApp
         //}
 
     }
+
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CrmApp
 {
-    class Product
+    public class Product
     {
         //fields
         private int category;

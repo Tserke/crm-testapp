@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CrmApp
 {
-    class Basket
+    public class Basket
     {
         //encapsulation (a class that contains other classes as fields) "GR-enthilakosi"
         //public List<Product> Products { get; set; }

@@ -56,15 +56,17 @@ namespace CrmApp
             try
             {
                 Console.WriteLine("Give the Customer ID");
-                customer.CustomerId = Console.ReadLine();
+                customer.CustomerId = Int32.Parse(Console.ReadLine());
                 Console.WriteLine("Give the name");
                 customer.Name = Console.ReadLine();
-                Console.WriteLine("Give the Last Name");
-                customer.LastName = Console.ReadLine();
-                Console.WriteLine("Give the Phone");
-                customer.Phone = Console.ReadLine();
-                Console.WriteLine("Give the Last Email");
-                customer.Email = Console.ReadLine();
+                Console.WriteLine("Give Sex");
+                customer.Sex = Int32.Parse(Console.ReadLine());
+                //Console.WriteLine("Give the Last Name");
+                //customer.LastName = Console.ReadLine();
+                //Console.WriteLine("Give the Phone");
+                //customer.Phone = Console.ReadLine();
+                //Console.WriteLine("Give the Last Email");
+                //customer.Email = Console.ReadLine();
 
                 return customer;
             }
