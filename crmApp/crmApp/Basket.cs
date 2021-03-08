@@ -54,7 +54,7 @@ namespace CrmApp
             decimal totalCost = 0;
             foreach (Product p in products)
             {
-                totalCost += p.TotalCost;
+               // totalCost += p.TotalCost;
             }
             return totalCost;
             // the m in 0m means that it is a decimal 0 and not int 
@@ -69,7 +69,7 @@ namespace CrmApp
                 StreamWriter sw = new StreamWriter(filename, true); //The true means append
                 foreach (Product product in products)
                 {
-                    sw.WriteLine(product.Code + "," + product.Name + "," + product.Price + "," + product.Quantity);
+                    //sw.WriteLine(product.Code + "," + product.Name + "," + product.Price + "," + product.Quantity);
                 }
                 sw.Close();
             }
@@ -93,10 +93,10 @@ namespace CrmApp
                 {
                     string[] words = line.Split(",");
                     Product product = new Product {  
-                        Code = words[0],
-                        Name = words[1],
-                        Price = Decimal.Parse(words[2]),
-                        Quantity = Int32.Parse(words[3])
+                        //Code = words[0],
+                        //Name = words[1],
+                        //Price = Decimal.Parse(words[2]),
+                        //Quantity = Int32.Parse(words[3])
                           
                     };
                     products.Add(product);

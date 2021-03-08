@@ -17,27 +17,59 @@ namespace CrmApp
             dbContext.Database.EnsureCreated();
 
             // Insert
-            var customer = new Customer()
-            {
-                Name = "unknown customer",
-                Sex = 0
-            };
+            //var customer = new Customer()
+            //{
+            //    Name = "unknown customer",
+            //    Sex = 0
+            //};
 
-            dbContext.Add(customer);
-            dbContext.SaveChanges();
+            //var customer1 = new Customer()
+            //{
+            //    Name = " customer 1",
+            //    Sex = 1
+            //};
+
+
+            //var customer2 = new Customer()
+            //{
+            //    Name = " Customer 2",
+            //    Sex = 0
+            //};
+
+            //var customer3 = new Customer()
+            //{
+            //    Name = " Customer 2",
+            //    Sex = 0
+            //};
+
+            //var customer4 = new Customer()
+            //{
+            //    Name = " Customer 2",
+            //    Sex = 0
+            //};
+
+            //dbContext.Add(customer);
+            //dbContext.Add(customer1);
+            //dbContext.Add(customer2);
+            //dbContext.Add(customer3);
+            //dbContext.Add(customer4);
+            //dbContext.SaveChanges();
 
             // Select
             var customers = dbContext
                 .Set<Customer>()
-                .ToList();
+                .Where(cust => cust.CustomerId == 3)
+                .Where(cust => cust.Name == "Customer2")
+                .SingleOrDefault();
+                //.ToList();
 
             //// Remove one customer
             //dbContext.Remove(customer);
             //dbContext.SaveChanges();
 
             // Remove all customers
-            dbContext.RemoveRange(customers);
-            dbContext.SaveChanges();
+            //dbContext.RemoveRange(customers);
+            //dbContext.SaveChanges();
         }
     }
  }

@@ -13,14 +13,14 @@ namespace CrmApp
             //try-catch block to manage user's input 
             try
             {
-                Console.WriteLine("Give the code");
-                product.Code = Console.ReadLine();
+                //Console.WriteLine("Give the code");
+                //product.Code = Console.ReadLine();
                 Console.WriteLine("Give the name");
                 product.Name = Console.ReadLine();
                 Console.WriteLine("Give the Price");
                 product.Price = Decimal.Parse(Console.ReadLine());
-                Console.WriteLine("Give the quantity");
-                product.Quantity = Int32.Parse(Console.ReadLine());
+                //Console.WriteLine("Give the quantity");
+                //product.Quantity = Int32.Parse(Console.ReadLine());
 
                 return product;
             }

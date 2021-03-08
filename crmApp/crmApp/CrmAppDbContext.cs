@@ -17,9 +17,14 @@ namespace CrmApp
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             modelBuilder
                 .Entity<Customer>()
                 .ToTable("Customer");
+
+            modelBuilder
+                .Entity<Product>()
+                .ToTable("Product");
         }
     }
 }
